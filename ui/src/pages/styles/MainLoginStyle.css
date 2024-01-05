@@ -1,0 +1,58 @@
+.mainLoginForm:focus {
+  box-shadow: none !important;
+  /* outline: none !important;
+  outline-offset: none !important; */
+}
+
+@media only screen and (max-width: 349px) {
+  .loginText {
+    line-height: 30px !important;
+    font-size: 20px !important;
+  }
+
+  .loginImage {
+    width: 100% !important;
+    border: 1px solid black;
+  }
+  .mainLoginForm {
+    height: 30px;
+  }
+  .fmControll {
+    margin-right: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .loginText {
+    line-height: 40px !important;
+    font-size: 30px !important;
+  }
+
+  .loginImage {
+    width: 100% !important;
+    margin-top: 0px !important;
+  }
+  .fmControll {
+    margin-right: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .loginText {
+    line-height: 40px !important;
+    font-size: 30px !important;
+  }
+  .loginImage {
+    width: 450px !important;
+    margin-top: 0px !important;
+  }
+  .fmControll {
+    margin-right: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .loginImage {
+    width: 600px !important;
+  }
+}

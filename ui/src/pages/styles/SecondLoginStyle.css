@@ -1,0 +1,36 @@
+@media only screen and (max-width: 349px) {
+  .signIn-text {
+    font-size: 22px !important;
+  }
+  .after-signup {
+    font-size: 15px !important;
+  }
+  .form-button {
+    min-height: 30px !important;
+    height: 30px;
+    text-transform: none;
+  }
+  .submit-button {
+    min-height: 35px !important;
+    height: 35px !important;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .signIn-text {
+    font-size: 28px !important;
+  }
+  .form-button {
+    min-height: 30px !important;
+    height: 30px;
+    text-transform: none;
+  }
+}
+@media only screen and (min-width: 641px) {
+  .form-button {
+    min-height: 40px !important;
+    height: 40px;
+    text-transform: none;
+  }
+}
+@media only screen and (min-width: 1025px) {
+}
