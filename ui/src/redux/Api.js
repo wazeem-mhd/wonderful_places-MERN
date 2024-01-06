@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const Api = axios.create({ baseURL: "http://localhost:5000/api/v1" });
+// const Api = axios.create({ baseURL: "http://localhost:5000/api/v1" });
+const Api = axios.create({ baseURL: "https://fedorain-api.onrender.com" });
 
 Api.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {
