@@ -12,7 +12,7 @@ const VerifyEmail = () => {
   useEffect(() => {
     const verifyEmailUrl = async () => {
       try {
-        const url = `http://localhost:5000/api/v1/user/${params.user_id}/verify/${params.token}`;
+        const url = `https://fedorain-api.onrender.com/api/v1/user/${params.user_id}/verify/${params.token}`;
         const response = await axios.get(url);
         if (response.data.isVerify) {
           setIsVerify(true);
